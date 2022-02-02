@@ -54,11 +54,13 @@ const UpdateFormPage: React.FC<{
 					onChange={(e) => onTitleChange(e)}
 					placeholder="title"
 					defaultValue={post.title}
+					className='title-input'
 				/>
 				<TextArea
 					onChange={(val) => onBodyChange(val)}
 					placeholder="body"
 					defaultValue={post.body}
+					className="text-area"
 				/>
 				<Button type="submit" color="blue">
 					Update Post

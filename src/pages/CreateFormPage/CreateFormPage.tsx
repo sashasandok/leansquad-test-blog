@@ -37,8 +37,8 @@ const CreateFormPage: React.FC<{ history: { push: Function } }> = ({
 		<div className="create-form-layout">
 			<h2>Create Post Form</h2>
 			<form onSubmit={(e) => onAddPost(e)} className="create-form">
-				<Input onChange={(e) => onTitleChange(e)} placeholder="title" />
-				<TextArea onChange={(e) => onBodyChange(e)} placeholder="body" />
+				<Input onChange={(e) => onTitleChange(e)} placeholder="title" className='title-input' />
+				<TextArea onChange={(e) => onBodyChange(e)} placeholder="body" className="text-area" />
 				<Button type="submit" color="blue">
 					Create Post
 				</Button>

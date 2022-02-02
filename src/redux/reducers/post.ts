@@ -1,7 +1,6 @@
 import { handleActions } from 'redux-actions'
 import actions from '../actions/post'
 import { deleteItem, addItem, updateCollection } from '../../utils/collection'
-import { post } from '../../api/apiClient'
 
 export const initialState = {
 	posts: [],

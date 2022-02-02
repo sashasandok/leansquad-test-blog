@@ -5,5 +5,5 @@ export const useFetch = (someFetchActionCreator: Function) => {
 	const dispatch = useDispatch()
 	useEffect(() => {
 		dispatch(someFetchActionCreator())
-	}, [dispatch])
+	}, [dispatch, someFetchActionCreator])
 }

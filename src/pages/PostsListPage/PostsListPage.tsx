@@ -15,7 +15,7 @@ const PostsListPage: React.FC<PostProps> = (props: any) => {
 	return (
 		<>
 			<Link to="create" style={{ marginBottom: '20px' }}>
-				<Button basic color="blue">
+				<Button color="blue">
 					Create post
 				</Button>
 			</Link>

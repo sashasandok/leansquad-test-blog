@@ -13,6 +13,14 @@
 	transition: all 0.4s;
 }
 
+.card-layout h2 {
+	color: black;
+}
+
+.card-layout p {
+	color: black;
+}
+
 .card-layout:hover {
 	transform: translateY(-2px) translateX(2px);
 }

@@ -47,6 +47,7 @@ const DetailedCard: React.FC<DetailedPostProps> = (props: any) => {
 							placeholder="add comment"
 							onChange={(e) => onCommentChange(e)}
 							style={{ padding: '10px' }}
+							className="comment-text-area"
 						/>
 						<Button
 							color="blue"

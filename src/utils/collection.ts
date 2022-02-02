@@ -18,7 +18,7 @@ export const updateCollection = (items: [], item: { id: number }) => {
 	return clone
 }
 
-const updateDataObject = (sourceItems: [], item: any) => ({
+export const updateDataObject = (sourceItems: [], item: any) => ({
 	...sourceItems,
 	[item.id]: item,
 })

@@ -23,7 +23,7 @@ const DetailedPostPage: React.FC<DetailedPostProps> = (props: any) => {
 					minHeight: '92vh',
 				}}
 			>
-				<Link to="/" onClick={() => dispatch(setPost())}>
+				<Link to="/" onClick={() => dispatch(setPost())} style={{ fontSize: '16px' }}>
 					to home
 				</Link>
 				<DetailedCard post={post} />

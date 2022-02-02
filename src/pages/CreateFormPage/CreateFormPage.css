@@ -7,9 +7,24 @@
 }
 
 .create-form {
-	height: 200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.title-input input {
+	height: 35px;
+	width: 380px;
+	font-size: 14px;
+}
+
+.text-area {
+	height: 300px;
+	width: 400px; 
+	border-radius: 3px; 
+	margin: 20px 0px; 
+	padding: 15px; 
+	resize: none; 
+	font-size: 14px;
 }

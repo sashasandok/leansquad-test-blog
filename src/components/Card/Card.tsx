@@ -25,17 +25,15 @@ const PostCard: React.FC<PostProps> = (props) => {
 					<p>{props.body}</p>
 				</div>
 			</Link>
-			<div>
-				<div className="ui two buttons">
-					<Link to={`update/${props.id}`}>
-						<Button basic color="green">
-							Edit
-						</Button>
-					</Link>
-					<Button basic color="red" onClick={() => onDelete(props.id)}>
-						Delete
+			<div style={{ width: '100%', display: 'flex' }}>
+				<Link to={`update/${props.id}`} style={{ width: '49%', marginRight: '2%' }}>
+					<Button color="blue" style={{ width: '100%' }}>
+						Edit
 					</Button>
-				</div>
+				</Link>
+				<Button color="red" onClick={() => onDelete(props.id)} style={{ width: '49%'}} >
+					Delete
+				</Button>
 			</div>
 			<Divider />
 		</div>
